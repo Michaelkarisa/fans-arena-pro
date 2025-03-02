@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "esModuleInterop": true      // Add this line to enable interoperability with ES modules
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ]
+}
